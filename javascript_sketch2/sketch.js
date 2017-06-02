@@ -1,6 +1,6 @@
 	var col=51;
 	var Engine = Matter.Engine,
-	
+
 	World = Matter.World,
 	Bodies = Matter.Bodies;
 	var engine;
@@ -18,6 +18,7 @@ function setup() {
 	var options {
 		isStatic: true
 	}
+
 	ground = Bodies.rectangle(200, height-50, width, 50, options);
 	World.add(world, ground);
 }
