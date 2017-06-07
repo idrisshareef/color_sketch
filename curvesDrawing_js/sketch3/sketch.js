@@ -12,9 +12,9 @@ function setup() {
 	star1= loadImage("curvesYellowGreen.odt");
 	star2= loadImage("curvesYellowGreen2.odt");
 	star3= loadImage("curvesYellowGreen3.odt");
-	txt1= createP("something about the images", 100, height-20);
-	txt2= createP("something else", 160, height-20);
-	txt3= createP("something else", 220, height-20);
+	txt1= createP("something about the second image", 100, height-20);
+	txt2= createP("something about the third image", 160, height-20);
+	txt3= createP("something about the first image", 220, height-20);
 }
 
 function draw() {
