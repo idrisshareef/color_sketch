@@ -20,8 +20,11 @@ function setup() {
 function draw() {
 	star1.show;
 	txt1.mouseOver(flipto2);
+  txt1.style("background-color", "red");
 	txt2.mouseOver(flipto3);
+  txt2.style("background-color", "yellow");
 	txt3.mouseOver(flipto1);
+
 }
 
 function flipto2(){

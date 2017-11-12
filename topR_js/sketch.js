@@ -1,7 +1,6 @@
 var topR= 0;
 var lastR= 0;
 
-
 function setup() {
   createCanvas(600, 400);
   println("setupfunction!");

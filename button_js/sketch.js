@@ -11,7 +11,7 @@ function setup() {
   button.mousePressed(changeStyle);
   button.style("font-size","14px");
 
-  text= createP('I think programming is a lot of fun! I can create lots of great things and have a ball!');
+  text= createP('I can create lots of great things and have a ball!');
   text.mouseOver(changeStyle);
   text.mouseOut(revertStyle);
 
@@ -33,10 +33,10 @@ function draw() {
 function changeStyle(){
     text.style("background-color","red");
     text.style("padding","24px");
-    col=17;
+    col=179;
 };
 function revertStyle(){
     text.style("background-color","blue");
     text.style("padding","12px");
-    col=185;
+    col=255;
 };
