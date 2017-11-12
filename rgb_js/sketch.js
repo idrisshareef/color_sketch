@@ -10,8 +10,10 @@ function draw() {
     
 	if(col<255){
         col+=1;
-    }else{
-		col-=1;
 	}
 	console.log(col);
+}
+
+function mousePressed(){
+	col = 250;
 }
