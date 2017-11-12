@@ -1,12 +1,17 @@
-var col=150;
+var col=10;
 
 function setup() {
-    createCanvas(600, 400);
+    createCanvas(window.innerWidth, window.innerHeight);
+	print("setup function!");
 }
 
 function draw() {
     background(120,30,col);
-    while(col<255){
-        col+=2;
-    }
+    
+	if(col<255){
+        col+=1;
+    }else{
+		col-=1;
+	}
+	console.log(col);
 }
