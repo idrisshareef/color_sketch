@@ -1,8 +1,9 @@
 var col=0;
 
 function setup() {
-    createCanvas(window.innerWidth, window.innerHeight);
+    createCanvas(340, 260);
 	print("setup function!");
+	frameRate(5);
 }
 
 function draw() {
