@@ -1,4 +1,4 @@
-var col=10;
+var col=0;
 
 function setup() {
     createCanvas(window.innerWidth, window.innerHeight);
