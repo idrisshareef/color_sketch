@@ -1,4 +1,4 @@
-var col=0;
+var col= 30;
 
 function setup() {
     createCanvas(340, 260);
