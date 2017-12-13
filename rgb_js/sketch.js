@@ -1,7 +1,8 @@
 var col=0;
 
 function setup() {
-	createCanvas(340, 260);
+    createCanvas(340, 260);
+	print("setup function!");
 	frameRate(5);
 }
 
